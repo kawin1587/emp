@@ -16,7 +16,7 @@ const AddEmployeeComponent = () => {
     function saveEmployee(e) {
         e.preventDefault();
 
-        if (employeeData.firstName !== "" && employeeData.lastName !== "" && employeeData.email != "") {
+        if (employeeData.firstName !== "" && employeeData.lastName !== "" && employeeData.email !== "") {
             /**If id is present in the parameter, it should update else it should save */
             if (id) {
                 EmployeeService.updateEmployee(id, employeeData)
@@ -50,7 +50,7 @@ const AddEmployeeComponent = () => {
                 })
                 .catch(e => console.log(e));
         }
-    }, []);
+    }, [id]);
 
     return (
         <div>
@@ -89,4 +89,4 @@ const AddEmployeeComponent = () => {
     )
 }
 
-export default AddEmployeeComponent
+export default AddEmployeeComponent;
