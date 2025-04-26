@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/6c3afe7c-f20b-4e73-8bc1-42a7846f76fe)![image](https://github.com/user-attachments/assets/6c78c5ce-bd3c-455e-8ce2-b8ed5aac8e4c)Full Stack App Deployed on AWS using Spring Boot Backend, React Frontend, and AWS RDS MySQL Database
+Full Stack App Deployed on AWS using Spring Boot Backend, React Frontend, and AWS RDS MySQL Database
 
 EC2 Instance — RDS — Route53 Setup
 
